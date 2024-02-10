@@ -1,0 +1,180 @@
+/* navbar styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.navbar {
+    background: #F7F8FC;
+    padding: 5px 15px;
+    box-shadow: 0px 10px 4px 7px #F7F8FC;
+    width: 100%;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    color: black;
+}
+
+.logo img {
+    margin: auto;
+    width: 60px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+
+li button {
+    background: black;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        font-size: 25px;
+    }
+    li a {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    li button {
+        margin-right: 5px;
+        font-size: 16px;
+    }
+}
+
+/* title animation */
+.wrapper {
+    height: 85vh;
+}
+
+.title {
+    width: 100%;
+    font-family: monospace;
+}
+
+.static-txt {
+    margin: 20px;
+    color: #6674CC;
+    font-size: 75px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.dynamic-txt {
+    color: black;
+    font-size: 75px;
+    font-weight: 800;
+}
+
+
+/* form section */
+.input-form, .login-form, .signup-form {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+form {
+    padding: 3px;
+    width: 41%;
+    background: rgba(226, 210, 244, 0.097);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 7px #E2D2F4;
+}
+
+form h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+form input {
+    margin: 25px 20px;
+    border-radius: 12px;
+    padding: 5px;
+    width: 70%;
+    border: 5px solid rgb(197, 197, 197);
+    outline: none;
+    font-size: 16px;
+}
+
+form button {
+    outline: none;
+    border: 5px solid #6674CC;
+    border-radius: 5px;
+    padding: 4px;
+    background: #6674CC;
+    color: #FFFFFF;
+    cursor: pointer;
+} 
+
+form span {
+    margin: 0 10px;
+}
+
+/* short link */
+.shortlinks {
+    margin-top: 30px;
+    text-align: end;
+}
+
+.shortlinks h4 {
+    margin: 10px 0;
+    padding: 5px;
+    background: rgb(191, 185, 185);
+    text-align: center;
+}
+
+.shortlinks a  {
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+/* dashboard my urls */
+.table-heading {
+    background: #E2D2F4;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+}
